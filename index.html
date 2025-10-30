@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ನಮ್ಮ ಧ್ವನಿ, ನಮ್ಮ ಹಕ್ಕುಗಳು · Our Voice, Our Rights</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>ನಮ್ಮ ಧ್ವನಿ, ನಮ್ಮ ಹಕ್ಕುಗಳು · Our Voice, Our Rights</h1>
+    <p class="subtitle">
+      ಕನ್ನಡದಲ್ಲೂ ಹಾಗೂ English — ನಿಮ್ಮ ಜಿಲ್ಲೆಯ MGNREGA ಮಾಹಿತಿಗೆ / District MGNREGA info
+    </p>
+  </header>
+
+  <div class="container">
+    <label id="langLabel" for="lang">Language:</label>
+    <select id="lang">
+      <option value="kn">ಕನ್ನಡ</option>
+      <option value="en">English</option>
+    </select>
+
+    <label id="districtLabel" for="districtSelect">District:</label>
+    <select id="districtSelect"></select>
+
+    <button id="fetchData">Show Data</button>
+
+    <div id="result"></div>
+  </div>
+
+  <footer>
+    Data source: <a href="https://data.gov.in" target="_blank">data.gov.in</a> · Built by Shreedevi
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
